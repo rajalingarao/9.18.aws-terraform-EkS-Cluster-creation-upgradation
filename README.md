@@ -125,6 +125,14 @@ kubectl get nodes
 ```
 kubectl get pods -n kube-system -o wide
 ```
+```
+kubectl get nodes
+```
+```
+kubectl get pods -o wide
+```
+
+
 * Note: upgrade the blue nodes from 1.29 to 1.30 version and comment the blue nodes in terraform tf file.
 * inform all stake holders, application teams. perform sanity testing and close the activity
 
